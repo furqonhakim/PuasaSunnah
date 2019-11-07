@@ -20,6 +20,8 @@ public class Detail extends AppCompatActivity {
 
         web.getSettings().setJavaScriptEnabled(true);
         web.getSettings().setLoadsImagesAutomatically(true);
+                getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         web.loadUrl(link);
     }
 }
